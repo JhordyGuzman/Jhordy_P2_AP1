@@ -78,19 +78,19 @@
             <StackPanel Orientation="Horizontal" Height="35" Margin="0,5,0,0" HorizontalAlignment="Center">
                 <Button x:Name="NuevoButton" Click="NuevoButton_Click" Width="120">
                     <StackPanel Orientation="Horizontal">
-                        <Image Height="25" Source="/Resources/Crear.png"/>
+                        <Image Height="25" Source="/Imagenes/Crear.png"/>
                         <Label Content="Nuevo" FontSize="17" FontWeight="Bold"/>
                     </StackPanel>
                 </Button>
                 <Button x:Name="GuardarButton" Click="GuardarButton_Click" Width="120" Margin="20,0,0,0" >
                     <StackPanel Orientation="Horizontal">
-                        <Image Height="30" Source="/Resources/Guardar.png"/>
+                        <Image Height="30" Source="/Imagenes/Guardar.png"/>
                         <Label Content="Guardar" FontSize="17" FontWeight="Bold"/>
                     </StackPanel>
                 </Button>
                 <Button x:Name="EliminarButton" Click="EliminarButton_Click" Width="120" Margin="20,0,0,0" >
                     <StackPanel Orientation="Horizontal">
-                        <Image Height="30" Source="/Resources/Eliminar.png"/>
+                        <Image Height="30" Source="/Imagenes/Eliminar.png"/>
                         <Label Content="Eliminar" FontSize="17" FontWeight="Bold"/>
                     </StackPanel>
                 </Button>
