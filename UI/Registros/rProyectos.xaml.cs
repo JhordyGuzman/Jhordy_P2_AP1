@@ -57,14 +57,13 @@ namespace Jhordy_P2_AP1.UI.Registros
             {
                 proyectos = encontrado;
                 Cargar();
-                //MessageBox.Show("Proyecto Encontrado", "Exito", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
                 MessageBox.Show($"Este Proyecto no fue encontrado.\n\nAsegurese que existe o cree uno nuevo.", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
                 Limpiar();
                 //—————————————————————————————————————[ Limpiar y hacer focus en el Id]—————————————————————————————————————
-                ProyectoIdTextbox.Text = "";
+                ProyectoIdTextbox.Clear();
                 ProyectoIdTextbox.Focus();
             }
         }

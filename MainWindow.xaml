@@ -16,13 +16,10 @@
             </MenuItem>
 
             <MenuItem Header="Consultas">
-             <MenuItem x:Name="Consulta" Header="Consulta" Click="Consultas_Click"></MenuItem> 
+             <MenuItem x:Name="ConsultaProyectos" Header="ConsultaProyectos" Click="ConsultaProyectos_Click"></MenuItem> 
         
             </MenuItem>
             </Menu>
-            <!-- <Button Content="Insertar Ventas" Width="134" Height="34" Margin= "50,50,0,0"/> -->
-
-
         </StackPanel>
 
     </Grid>

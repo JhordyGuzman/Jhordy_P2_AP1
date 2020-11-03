@@ -34,9 +34,10 @@ namespace Jhordy_P2_AP1
             
         }
 
-        private void Consultas_Click(object sender, RoutedEventArgs e)
+        private void ConsultaProyectos_Click(object sender, RoutedEventArgs e)
         {
-             
+             cProyectos ventana = new cProyectos();
+             ventana.Show();
         }
 
     }
