@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Jhordy_P2_AP1.UI.Registros;
+using Jhordy_P2_AP1.UI.Consultas;
 
 namespace Jhordy_P2_AP1
 {
@@ -25,13 +27,15 @@ namespace Jhordy_P2_AP1
             InitializeComponent();
         }
 
-          private void Registros_Click(object sender, RoutedEventArgs e)
+        private void RegistroProyectos_Click(object sender, RoutedEventArgs e)
         {
+            rProyectos ventana = new rProyectos();
+            ventana.Show();
             
         }
 
-          private void Consultas_Click(object sender, RoutedEventArgs e)
-         {
+        private void Consultas_Click(object sender, RoutedEventArgs e)
+        {
              
         }
 

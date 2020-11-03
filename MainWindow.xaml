@@ -11,12 +11,12 @@
         <StackPanel>
             <Menu Height="20" VerticalAlignment="Top">
             <MenuItem  Header="Registros">
-                <MenuItem x:Name="RegistroJugadores" Header="Registro Jugadores" Click="RegistroJugadores_Click"></MenuItem>
+                <MenuItem x:Name="RegistroProyectos" Header="RegistroProyectos" Click="RegistroProyectos_Click"></MenuItem>
 
             </MenuItem>
 
             <MenuItem Header="Consultas">
-             <MenuItem x:Name="ConsultaJugadores" Header="ConsultaJugadores" Click="ConsultaJugadores_Click"></MenuItem> 
+             <MenuItem x:Name="Consulta" Header="Consulta" Click="Consultas_Click"></MenuItem> 
         
             </MenuItem>
             </Menu>

@@ -16,7 +16,7 @@ namespace Jhordy_P2_AP1.Entidades
 
         public string Descripcion { get; set; }
 
-        public double Tiempo { get; set; }
+        public double TiempoTotal { get; set; }
 
         [ForeignKey("ProyectoId")]
         public virtual List<ProyectosDetalle> Detalle { get; set; } = new List<ProyectosDetalle>();
